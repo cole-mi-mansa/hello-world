@@ -13,7 +13,7 @@ button {
     color: turquoise;
     font-size: 2em;
     padding: 10px;
-    animation: border-close 5s infinite;
+    animation: border-close 2s infinite;
 }
 
 @keyframes border-close {
