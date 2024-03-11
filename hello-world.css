@@ -1,0 +1,35 @@
+.body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: turquoise;
+    font-size: 2em;
+    padding: 10px;
+    animation: border-close 5s infinite;
+}
+
+@keyframes border-close {
+    0% {
+       border-top: 2px solid turquoise;
+    }
+    25% {
+        border-right: 2px solid turquoise;
+    }
+    50% {
+        border-bottom: 2px solid turquoise;
+    }
+     75% {
+        border-left: 2px solid turquoise;
+    }
+    100% {
+        border: 2px solid turquoise;
+    }
+}
